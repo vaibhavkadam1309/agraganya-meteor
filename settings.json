@@ -1,0 +1,13 @@
+{
+    "public": {},
+    "private": {
+        "smtpUsername": "noteera.dev@gmail.com",
+        "smtpPassword": "SammyHal1m1",
+        "smtpServer": "smtp.gmail.com",
+        "smtpPort": 465,
+        "jwtSecretKey": "secret-key-noteera"
+    },
+    //   "mongoURL":"mongodb://noteera_admin:sirigina@ds023418.mlab.com:23418/noteera",
+    "mongoURL": "mongodb://noteera_admin:sirigina@localhost:3001/agraganya-meteor",
+    "rootURL": "http://localhost:3000"
+}
