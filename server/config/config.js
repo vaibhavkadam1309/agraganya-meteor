@@ -32,4 +32,5 @@ Meteor.startup(function () {
     //  var database = new MongoInternals.RemoteCollectionDriver(process.env.MONGO_URL);
     Users = new Mongo.Collection("user");
     News = new Mongo.Collection("news");
+    Advertisement = new Mongo.Collection("advertisement");
 });
